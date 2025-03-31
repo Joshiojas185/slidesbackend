@@ -160,8 +160,8 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 5000;
 // const HOST = '10.33.0.21';
-// const HOST = '0.0.0.0';
-const HOST = '192.168.29.153';
+const HOST = '0.0.0.0';
+// const HOST = '192.168.29.153';
 
 server.listen(PORT, () => {
     console.log(`Server running on http://${HOST}:${PORT}`);
